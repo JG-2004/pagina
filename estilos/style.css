@@ -1,0 +1,64 @@
+body {
+    background-image: url("../image/image4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25pt;
+    color: rgb(174, 150, 13);
+}
+
+.img1 {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.repr {
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: fit-content;
+    margin: 25px auto;
+}
+
+.disc {
+    background-color: rgb(0, 0, 0);
+    border-radius: 280px;
+}
+
+.audio-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    /* Fondo blanco o el que quieras */
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+p {
+    font-size: 14pt;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+.imgn {
+    margin-top: 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
